@@ -1,0 +1,9 @@
+## Bad request: Authorization header is correct, but the token seems invalid
+
+In a few simple steps:
+
+Visit huggingface.co/settings/tokens and find your token.
+Edit Access Token Permissions
+Under Inference check box Make calls to the serverless Inference API.
+Under Repos check box Write access to contents/settings of all repos under your personal namespace
+Save and retry to run your code.
